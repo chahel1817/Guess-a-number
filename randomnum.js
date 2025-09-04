@@ -58,7 +58,7 @@ function dispGuess(guess) {
   num.value = ''
   prev.innerHTML += `${guess}, ` 
   currGuess++
-  remain.innerHTML = `${11 - currGuess}`
+  remain.innerHTML = `${6 - currGuess}`
 }
 
 function dispMesg(message) {
@@ -84,7 +84,7 @@ function newGame() {
     lowOrHi.innerHTML = ''
     prev.innerHTML = '' 
     num.removeAttribute('disabled')
-    remain.innerHTML = 10
+    remain.innerHTML = 5
     res.removeChild(p)
     startGame = true
   })
