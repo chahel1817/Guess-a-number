@@ -32,9 +32,9 @@ function validGuess(guess) {
     alert("Enter a Number less than 100")
   } else {
     prevGuess.push(guess)
-    if (currGuess > 10) {
+    if (currGuess > 5) {
       dispGuess(guess)
-      dispMesg("You've already entered 10 guesses, try a new game!")
+      dispMesg("You've already entered 5  guesses, try a new game!")
       endGame()
     } else {
       dispGuess(guess)
