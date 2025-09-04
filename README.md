@@ -40,3 +40,13 @@ To run locally:
 Play it here 👉 [Random Number Game](https://chahel1817.github.io/Guess-a-number/)
 
 
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork this repo and submit a pull request.
+
+
+## 🙌 Acknowledgements
+- Inspired by simple number-guessing games
+- Created as a practice project for JavaScript DOM manipulation
+
+
